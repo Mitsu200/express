@@ -1,0 +1,22 @@
+{
+  "name": "node_express",
+  "version": "0.0.1",
+  "description": "projekt testowy framework express",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Mateusz Kwiatkowski",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
